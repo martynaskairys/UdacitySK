@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Udacity SK</string>
+    <string name="resume_time">Resume time</string>
+    <string name="stop_time">Stop time</string>
+    <string name="resume_time_on">Resume time</string>
+    <string name="start_game">start game</string>
+    <string name="reset_score">reset score</string>
+    <string name="free_throw">Free throw</string>
+    <string name="_2">+ 2</string>
+    <string name="_3">+ 3</string>
+    <string name="free_throw_">Free throw</string>
+    <string name="_2_">+ 2</string>
+    <string name="_3_">+ 3</string>
+    <string name="_00_00">00:00</string>
+    <string name="_00">00</string>
+    <string name="_00_">00</string>
+    <string name="guests">GUESTS</string>
+    <string name="home">HOME</string>
 </resources>

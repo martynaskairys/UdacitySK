@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="HOME"
+                android:text="@string/home"
                 android:textSize="32sp" />
 
             <TextView
@@ -29,7 +29,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="GUESTS"
+                android:text="@string/guests"
                 android:textSize="32sp" />
 
         </LinearLayout>
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="00"
+                android:text="@string/_00_"
                 android:textSize="48sp" />
 
             <TextView
@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="00"
+                android:text="@string/_00"
                 android:textSize="48sp" />
 
         </LinearLayout>
@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="8dp"
-            android:text="00:00"
+            android:text="@string/_00_00"
             android:textSize="24sp" />
 
         <LinearLayout
@@ -89,7 +89,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:onClick="addThreePointsHomeTeam"
-                    android:text="+ 3" />
+                    android:text="@string/_3_" />
 
                 <Button
                     android:layout_width="120dp"
@@ -97,7 +97,7 @@
                     android:layout_margin="8dp"
                     android:onClick="addTwoPointsHomeTeam"
 
-                    android:text="+ 2" />
+                    android:text="@string/_2_" />
 
                 <Button
                     android:layout_width="120dp"
@@ -105,7 +105,7 @@
                     android:layout_margin="8dp"
                     android:onClick="addOnePointHomeTeam"
 
-                    android:text="Free throw" />
+                    android:text="@string/free_throw_" />
 
             </LinearLayout>
 
@@ -133,23 +133,21 @@
                     android:layout_margin="8dp"
                     android:onClick="addThreePointsGuestsTeam"
 
-                    android:text="+ 3" />
+                    android:text="@string/_3" />
 
                 <Button
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:onClick="addTwoPointsGuestsTeam"
-
-                    android:text="+ 2" />
+                    android:text="@string/_2" />
 
                 <Button
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:onClick="addOnePointGuestsTeam"
-
-                    android:text="Free throw" />
+                    android:text="@string/free_throw" />
 
             </LinearLayout>
 
@@ -171,9 +169,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:layout_weight="0.8"
-                android:text="Resume time"
-                android:textOff="Stop time"
-                android:textOn="Resume time" />
+                android:text="@string/resume_time"
+                android:textOff="@string/stop_time"
+                android:textOn="@string/resume_time_on" />
 
             <Button
                 android:id="@+id/startGame"
@@ -182,7 +180,7 @@
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:background="@color/colorAccent"
-                android:text="start game" />
+                android:text="@string/start_game" />
 
             <Button
                 android:id="@+id/cancelGame"
@@ -190,8 +188,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:layout_weight="0.8"
-
-                android:text="reset score" />
+                android:text="@string/reset_score" />
 
 
         </LinearLayout>
