@@ -178,10 +178,10 @@ public class MainActivity extends AppCompatActivity {
         if (startbtn.isEnabled()) {
             Toast.makeText(this, "Start Game first", Toast.LENGTH_SHORT).show();
         } else if (isPaused) {
-            Toast.makeText(this, "Resume time first", Toast.LENGTH_SHORT).show();
-        } else {
             scoreHome = scoreHome + 1;
             displayScoreHome(scoreHome);
+        } else {
+            Toast.makeText(this, "Stop time first", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -220,10 +220,10 @@ public class MainActivity extends AppCompatActivity {
         if (startbtn.isEnabled()) {
             Toast.makeText(this, "Start Game first", Toast.LENGTH_SHORT).show();
         } else if (isPaused) {
-            Toast.makeText(this, "Resume time first", Toast.LENGTH_SHORT).show();
-        } else {
             scoreGuests = scoreGuests + 1;
             displayScoreGuests(scoreGuests);
+        } else {
+            Toast.makeText(this, "Stop time first", Toast.LENGTH_SHORT).show();
         }
     }
 
